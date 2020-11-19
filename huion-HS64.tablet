@@ -1,0 +1,23 @@
+# HUION
+# HS64
+#
+
+[Device]
+Name=HUION Huion Tablet_HS64
+ModelName=
+DeviceMatch=usb:256c:006d:HUION Huion Tablet_HS64 Pen;usb:256c:006d:HUION Huion Tablet_HS64 Pad;
+Class=Bamboo
+Width=6
+Height=4
+IntegratedIn=
+Styli=0xffffd;
+
+[Features]
+Stylus=true
+Reversible=false
+Touch=false
+Buttons=4
+
+[Buttons]
+Top=A;B;C;D
+EvdevCodes=0x110;0x112;0x111;0x113
